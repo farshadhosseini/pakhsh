@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+<div class="row center">
+    <div class="col s12 m3 push-l4 center login-form">
+        <div class="card-panel blue-grey darken-1">
+<h5 class="white-text">ثبت نام جدید </h5>
+            <form>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input  type="text" class="validate" placeholder="نام و نام خانوادگی  ">
+                    </div>
+                    <div class="input-field col s12">
+                        <input  type="number" class="validate" placeholder="شماره همراه ">
+                    </div>
+                    <div class="input-field col s12">
+                        <input  type="password" class="validate" placeholder="رمز عبور">
+                    </div>
+                    <div class="input-field col s12">
+                        <input type="password" class="validate" placeholder="تکرار رمز عبور ">
+                    </div>
+                    <div class="input-field col s12">
+                        <select>
+                            <option value="" disabled selected>  انتخاب منطقه</option>
+                            <option value="1">گوهردشت</option>
+                            <option value="2">باغستان</option>
+                            <option value="3">گلشهر</option>
+                        </select>
+                    </div>
+                </div>
+                <a href="#" class="modal-action modal-close waves-effect waves-green btn btn-large">ثبت نام </a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/megamenu.js"></script>
+
+<script>
+    Materialize.toast($toastContent, 5000);
+</script>
+
+</body>
+</html>
